@@ -1,0 +1,38 @@
+h1, p {
+    background-color: #f1eeee;
+    padding: 20px 0 20px 10px;
+    border-bottom: 1px solid #0b24fb;;
+  }
+  
+  em, strong {
+    background-color: #29fd2f;
+    display: inline;
+    /* padding: 50px; */
+  }
+
+  p {
+    padding: 20px 0 20px 10px;
+    margin-bottom: 50px;
+  }
+
+  div {
+    color: #FFF;
+    background-color: #4A90E2;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+  
+    width: 200px;
+    box-sizing: border-box;
+    margin: 20px auto;
+  }
+
+  body {
+    text-align: center;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }

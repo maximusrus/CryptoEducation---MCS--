@@ -1,0 +1,25 @@
+h1, h2 {
+    background-color: #000000;
+    color: white;
+    padding: 0px 0px 0px 5px;
+    text-align: left;
+  }
+
+h1:first-of-type {
+    margin-top: 20px;
+  }
+
+.listoflinks{
+    margin: 0px 0px 0px 15px;
+    padding-left: 0px;
+    font-weight: bold;
+
+}
+
+.mainimage {
+    padding-bottom: 0.83em;
+}
+
+body {
+    margin: 30px
+  }
