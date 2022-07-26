@@ -1,27 +1,26 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
   }
 
 body {
-    background-color: #E5E300;
-    size:1440px;
+    background-color: #171717;
   }
 
 h1, h2, p {
     margin-left: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
+    margin-right: 30px;
     color: white;
-  }
+}
 
 .mainimage {
-    height: 1040px;
+    height: 630;
     min-height: 50vh;
     max-height: 80vh;
     width: 100%;
-    background-image: url(images/mainimage.png);
+    background-image: url(images/mainimage.jpg);
     background-position: center;
     background-size: cover
 }
@@ -34,5 +33,41 @@ a:link, a:visited, a:active {
 
 a:hover{
     text-decoration: underline;
-    color: rgb(203, 203, 203);
+    color: rgb(152, 152, 152);
+}
+
+.description{
+    background-color: rgb(228, 228, 228);
+    border: 2px solid rgb(0, 0, 0);
+    color: black;
+}
+
+.description h1, p, a{
+    color: black;
+}
+
+.descriptiontext {
+    font-size: 24px;
+}
+
+.standardlink:link, .standardlink:visited, .standardlink:active {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    font-size:24px;
+  }
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items:center;
+    height:86px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.footer h2 {
+    color: white;
 }
