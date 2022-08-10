@@ -5,9 +5,11 @@
   }
 
   .page {
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
   
   .section {
@@ -53,13 +55,26 @@
   /* Макет для десктопов */
   @media only screen and (min-width: 391px) {
     .page {
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 30px;
+      /* height: 80vh; */
+      vertical-align:middle;
+      margin-bottom: 10vh;
+      margin-top: 13vh;
     }
     .section {
       width: 45%;
+      height: 30vh;
       margin: 5px;
       margin-top: 0px;
     }
+
+    .bottom {
+      position: fixed;
+      bottom:0;
+      left:0
+    }
+
+    .body {
+      vertical-align:middle;
+    }
+    
   }
