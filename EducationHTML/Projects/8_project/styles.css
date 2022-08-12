@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.header {
+        background-color: #F8BFC7;
+        width: 100vw;
+        height: 6vh;
+        font-size: 26px;
+        color: black;
+        padding-right: 30px;
+        padding-left: 30px;
+}
+
+ul {
+        list-style-type: none;
+        overflow: hidden;
+}
+      
+li {
+        float: left;
+}
+
+a {
+        display: block;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        padding: 12px;
+        padding-left: 0px;
+}
+    
+nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    text-align: center; 
+}
+
+.sectionorder {
+    background-image: url("images/background.png");
+    width: 100%;
+    background-size: cover;
+    padding: 70px;
+    height: 70vh;
+}
+
+.sectionorderstatus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 18vh;
+    color: #FEB700;
+    font-weight: bolder;
+    font-size: 46px;
+    background: rgb(67, 110, 202);
+}
+
+.order-form {
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+  }
+
+.mainorder {
+    display: flex;
+    flex-direction: column;
+    background-color: #F8BFC7;
+    border: 1px solid white;
+    border-radius: 1px;
+    padding: 40px;
+    border-radius: 30px;
+    width: 500px;
+}
+
+.form-row {
+    margin-bottom: 40px;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .form-row input[type='text'], .form-row input[type="email"], .form-row select {
+    border: none;
+    border-bottom: solid white;
+    border-radius: 3px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+    color: white;
+    background-color: transparent;
+  }
+
+  .form-row button {
+    box-sizing: border-box;
+
+    /* position: absolute; */
+    width: 300px;
+    height: 60px;
+    
+    background: #FEB700;
+    border: 3px solid #FFFFFF;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+    
+.form-row button:hover {
+    background-color: rgb(216, 141, 0);
+}
+    
+.form-row button:active {
+    background-color: rgb(146, 95, 0);
+}
+
+.bottompage{
+    background-color: #F8BFC7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color:white;
+    height: 6vh;
+    width: 100vw;
+    font-size: 24px;
+    padding:30px;
+    bottom:0;
+    left:0;
+}
+    
