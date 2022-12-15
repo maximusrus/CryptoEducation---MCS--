@@ -1,8 +1,22 @@
-console.log (summa (2,3))
+class Punk {
+    constructor (id, type) {
+        this.id = id,
+        this.type = type
+    }
 
-function summa (x, y){
-    c=x+y
-    return c
+    getId () {
+        return `#${this.id}`
+    }
+
+    isAlien () {
+        return this.type === "Alien"
+    }
+
 }
 
-console.log ('len'[0])
+const punk3100 = new Punk(3100, "Alien")
+punk3100.getId() // "#3100"
+punk3100.isAlien() // true
+const punk5217 = new Punk(5217, "Ape")
+punk5217.getId() // "#5217"
+punk5217.isAlien() // false

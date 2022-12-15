@@ -1,0 +1,15 @@
+fetch('https://remix.ethereum.org/assets/version.json', { cache: "no-store" }).then(response => {
+  response.text().then(function (data) {
+    const version = JSON.parse(data);
+    console.log(`Loading Remix ${version.version}`);
+    createScriptTag(`polyfills.${version.version}.${version.timestamp}.js`, 'module');
+    if (version.mode === 'development') {
+      createScriptTag(`vendor.${version.version}.${version.timestamp}.js`, 'module');
+      createScriptTag(`runtime.${version.version}.${version.timestamp}.js`, 'module');
+    }
+    createScriptTag(`main.${version.version}.${version.timestamp}.js`, 'text/javascript');
+  });
+});
+
+
+cd Desktop/CryptoEducation/Solidity
